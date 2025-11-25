@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "input",
+						"type": "string"
+					}
+				],
+				"name": "reverseString",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"reverseString(string)": {
+					"details": "反转输入字符串",
+					"params": {
+						"input": "待反转的字符串"
+					},
+					"returns": {
+						"_0": "反转后的字符串"
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Task1/Reverse_Contract.sol": "StringReverser"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Task1/Reverse_Contract.sol": {
+			"keccak256": "0x9654c5a726603509c77bf089296d1e998bc7206552c39dd8cd0712439fed9eaa",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8af33f341cc3e91e0fa98b4c1da8a945e20bba92ccf40d18afb0a0713c2fd58b",
+				"dweb:/ipfs/QmVU6k4CyycBcqL6uBc1LpUv6JpuxkULGzeioFCKnEMH8s"
+			]
+		}
+	},
+	"version": 1
+}
