@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getBlockDetails",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Taks2/test.sol": "BlockInfo"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Taks2/test.sol": {
+			"keccak256": "0x3e9bfecfc42b1dbdbb157d6c07d07d48f0a842bf54fd0cba0baa32ea0e8fbae3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c65167965cffe1f92f6e033ce6d0e9fa6848fd6fab553945988d2118610edc03",
+				"dweb:/ipfs/QmPsS5jS339BeRbvjG9UC6XdWnNTD78HapdLUBqseG8K8s"
+			]
+		}
+	},
+	"version": 1
+}

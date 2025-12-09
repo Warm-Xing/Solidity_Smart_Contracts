@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "input",
+						"type": "string"
+					}
+				],
+				"name": "getHash",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Taks2/test.sol": "HashExample"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Taks2/test.sol": {
+			"keccak256": "0xe0826eab87eb24cff36e5f5230ea71c1b357e30ac20c89f38572886c956cc5ba",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1daed1c845d8f0e9e0a02e99e11488a1a510a1f3ed300b34b70d7e5bfcdfd5c4",
+				"dweb:/ipfs/QmehNzYmPnge1Maq88xwYQaVQZpHP8EcAj9dUmyC5QHK8T"
+			]
+		}
+	},
+	"version": 1
+}

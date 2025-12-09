@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getContractDetails",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Taks2/test.sol": "ContractInfo"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Taks2/test.sol": {
+			"keccak256": "0xd297fefcb10cd000db8a19ef6c2bc93afd417560ff41071eb83212d065fba286",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a148251596982f8a77f0337252f63f69b24bd21f244c4f7058ad126586644fcd",
+				"dweb:/ipfs/QmdQs28ZJueBaQWTXx8i9KTAd7kEWsq7Tzhh6aZagFiwpL"
+			]
+		}
+	},
+	"version": 1
+}
